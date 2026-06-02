@@ -1,0 +1,70 @@
+{
+    "mascotas": {
+        "VET-001": {
+            "nombre": "Roma",
+            "especie": "Gato",
+            "raza": "Calle",
+            "edad": "5",
+            "peso": "4",
+            "dueño": "Fede",
+            "telefono": "11111111111",
+            "historial": [],
+            "sexo": "N/A"
+        }
+    },
+    "inventario": {
+        "PROD-001": {
+            "nombre": "Fed",
+            "categoria": "Fármaco",
+            "precio": 10.0,
+            "stock": 150,
+            "requiere_receta": false,
+            "caducidad": "N/A"
+        },
+        "PROD-002": {
+            "nombre": "Fed1",
+            "categoria": "Accesorio",
+            "precio": 12200.0,
+            "stock": 11,
+            "requiere_receta": false,
+            "caducidad": "N/A"
+        },
+        "PROD-003": {
+            "nombre": "Test1",
+            "categoria": "Accesorio",
+            "precio": 20000.0,
+            "stock": 200,
+            "requiere_receta": false,
+            "caducidad": "N/A"
+        }
+    },
+    "ventas": [],
+    "facturas": [
+        {
+            "id": "FAC-0001",
+            "fecha": "2026-06-02 12:46",
+            "cliente": "Cliente1",
+            "items": [
+                {
+                    "tipo": "Servicio",
+                    "id_prod": "N/A",
+                    "nombre": "Consulta1",
+                    "cantidad": 1,
+                    "precio": 60000.0,
+                    "subtotal": 60000.0,
+                    "id_mascota": null
+                },
+                {
+                    "tipo": "Producto",
+                    "id_prod": "PROD-002",
+                    "nombre": "Fed1",
+                    "cantidad": 1,
+                    "precio": 12200.0,
+                    "subtotal": 12200.0,
+                    "id_mascota": null
+                }
+            ],
+            "total": 72200.0
+        }
+    ]
+}
